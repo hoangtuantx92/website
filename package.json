@@ -1,0 +1,52 @@
+{
+  "name": "myportfoliosite",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "homepage": "https://hoangtuantx92.github.io/website/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "jade": "^1.11.0",
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1",
+    "react": "^16.8.4",
+    "react-copyright": "0.0.1",
+    "react-dom": "^16.8.4",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "react-scrolling-nav": "^1.1.5",
+    "reactstrap": "^7.1.0",
+    "semantic-ui-react": "^0.85.0",
+    "serve-favicon": "^2.5.0",
+    "toastr": "^2.1.4",
+    "url-loader": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Kevin Do",
+  "license": "ISC",
+  "keywords": []
+}
