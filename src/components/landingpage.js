@@ -13,7 +13,7 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
-            <div className="banner-text">
+            <div style={{ position: "relative" }} className="banner-text">
               <h1 style={{ fontFamily: "Lucida Console" }}>
                 Hi, I am Kevin Do
               </h1>
