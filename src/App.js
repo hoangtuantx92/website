@@ -30,7 +30,7 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link style={{ fontSize: "25px" }} to="/">
+              <Link style={{ fontSize: "25px" }} to="/website">
                 HOME
               </Link>
               <Link style={{ fontSize: "25px" }} to="/aboutme">
