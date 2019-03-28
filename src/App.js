@@ -22,7 +22,7 @@ class App extends Component {
                   color: " white",
                   fontFamily: "Times New Roman"
                 }}
-                to="/"
+                to="/website"
               >
                 MY PORTFOLIO
               </Link>
@@ -56,7 +56,7 @@ class App extends Component {
                   color: "black",
                   fontFamily: "Times New Roman"
                 }}
-                to="/"
+                to="/website"
               >
                 MY PORTFOLIO
               </Link>
